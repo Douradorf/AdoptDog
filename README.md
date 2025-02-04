@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do projeto **AdoptDog**, um projeto de desenvolvimento em HTML e CSS que visa aperfeicoamento pessoal.
 
-##📌 Índice
+## 📌 Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Funcionalidades](#funcionalidades)
@@ -10,7 +10,7 @@ Bem-vindo ao repositório do projeto **AdoptDog**, um projeto de desenvolvimento
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Autores](#autores)
 
-##📋 Sobre o Projeto
+## 📋 Sobre o Projeto
 
 O projeto é uma _Landing Page_, desenvolvida com o proposito de divulgar locais de adoção de animais em 5 grandes estados do Brasil, que são elas:
 
@@ -50,7 +50,7 @@ O projeto é uma _Landing Page_, desenvolvida com o proposito de divulgar locais
 - HTML5
 - CSS3
 
-##🛠️ Estrutura do Projeto
+## 🛠️ Estrutura do Projeto
 
 ```
 AdoptDog/
@@ -63,7 +63,7 @@ AdoptDog/
 └── style.css
 ```
 
-##✒️ Autores
+## ✒️ Autores
 
 Projeto desenvolvido por:
 
