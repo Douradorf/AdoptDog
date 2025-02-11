@@ -28,11 +28,6 @@ O projeto é uma _Landing Page_, desenvolvida com o proposito de divulgar locais
 - Porto Alefre
 - Caixias do Sul
 - Pelotas
-
-**Pará**
-- Belém
-- Santarém
-- Marabá
   
 **Mato Grosso do Sul**
 - Campo Grande
