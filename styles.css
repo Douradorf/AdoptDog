@@ -1,0 +1,276 @@
+/* Corpo */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #a5ca99;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Header */
+header {
+    background-color: #3f7f5f;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+}
+
+.header-content {
+    max-width: 1500px; 
+    width: 100%;
+    margin: 0 auto; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    height: 90px; 
+}
+
+.nav-esq {
+    display: flex;
+    align-items: center; 
+}
+
+.logo-nav {
+    width: 160px;
+}
+
+.nav-dir {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+    text-decoration: none;
+    transition: 100ms;
+}
+
+.nav-dir li {
+    list-style: none; 
+}
+
+.nav-dir a {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: 100ms;
+}
+
+.nav-dir a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    height: 2px; 
+    background-color: #3f7f5f; 
+    width: 100%; 
+}
+
+.apresentation h2 {
+    font-size: 24px;
+    color: white;
+    text-shadow: black 0 0 4px;
+
+}
+
+.apresentation p{
+    color: white;
+    text-shadow: black 0 0 4px;
+}
+
+
+/* Main */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    background-color: #fff;
+    width:100%;
+    /* border: solid red 1px; */
+
+}
+
+.welcome-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    /* border: solid red 1px; */
+    
+}
+
+.welcome-image {
+    flex: 1;
+    text-align: center;
+
+}
+
+.welcome-image img {
+    max-width: 100%;
+    height: auto;
+    width: 200px; 
+}
+
+.welcome-text {
+    flex: 2;
+    text-align: justify;
+    padding: 20px; 
+    margin: 10px 0; 
+
+}
+
+.welcome-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.welcome-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+
+.content {
+    width: 100%;
+    /* border: solid red 1px; */
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    padding: 20px;
+        
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.card-left img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    padding-right: 20px;
+    
+}
+
+.card-middle {
+    flex: 2; 
+    text-align: left;
+    /* border: solid red 1px; */
+}
+
+.card-middle h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card-middle p {
+    margin: 2px 0;
+    font-size: 14px;
+}
+
+.card-middle a {
+    color: black;
+    text-decoration: none;
+}
+
+.card-middle a:hover {
+    text-decoration: underline;
+}
+
+.card-right {
+    text-align: center;
+    font-size: 14px;
+}
+
+.card-right strong {
+    font-size: 18px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #3f7f5f;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+button:hover {
+    background-color: #3f7f5f;
+}
+
+@media (max-width: 768px) {
+    .card-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card-left img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .card-middle h3 {
+        font-size: 16px;
+    }
+
+    .card-middle p {
+        font-size: 12px;
+    }
+
+    .card-right {
+        font-size: 12px;
+    }
+}
+
+/* Rodapé */
+footer {
+    background-color: #3f7f5f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
